@@ -58,13 +58,13 @@ Even though it performed really well, we recommend to try this model with other 
 
 ## Data Dictionary
 
-| Dataset     | Variables       | Data Type | Data options                     |
-| ----------- | --------------- | --------- | -------------------------------- |
-| reddit_final| subreddit       | str       | legaladvice, relationship_advice |                                                                      
-|             | text_all        | str       |                                  |
-|             | y               | int       | 0, 1                             |
-|             | texts_cleaned   | str       |                                  |
-|             | posts_w_cnt     | int       |                                  |
+| Dataset     | Variables       | Data Type | Description                                   | Data options                     |
+| ----------- | --------------- | --------- | --------------------------------------------- | -------------------------------- |
+| reddit_final| subreddit       | str       | Which Subreddit the post is from              | legaladvice, relationship_advice |                             
+|             | text_all        | str       | Post content                                  |                                  |
+|             | y               | int       | Target Variable                               |                                  |
+|             | texts_cleaned   | str       | Post after regular expression and lemmatizing |                                  |
+|             | posts_w_cnt     | int       | Number of words used in a post                |                                  |
 
 ## Directory
 
