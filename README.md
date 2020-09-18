@@ -62,7 +62,7 @@ Even though it performed really well, we recommend to try this model with other 
 | ----------- | --------------- | --------- | --------------------------------------------- | -------------------------------- |
 | reddit_final| subreddit       | str       | Which Subreddit the post is from              | legaladvice, relationship_advice |                             
 |             | text_all        | str       | Post content                                  |                                  |
-|             | y               | int       | Target Variable                               |                                  |
+|             | y               | int       | Target Variable                               | 0, 1                             |
 |             | texts_cleaned   | str       | Post after regular expression and lemmatizing |                                  |
 |             | posts_w_cnt     | int       | Number of words used in a post                |                                  |
 
